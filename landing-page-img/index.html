@@ -17,6 +17,8 @@
         <img class="h-screen lg:h-[60vh] w-full object-cover opacity-80 lg:overflow-hidden" src="/lands.jpeg" alt="background image">
         <div class="absolute bottom-0 bg-black container mx-auto p-4 opacity-60 h-60 slate-section">
             <!-- just for opacity -->
+            <!-- the height with opaque background will change depending on how much content is inside the h1 and p tags, so to address that issue make sure set the height of the bg with js -->
+            <!-- I have implemented a jQuery solution (might work well inside WordPress since it comes with a copy of jQuery), but vanilla JS implementation shall depend on the framework or library that you are using -->
         </div>
         <div class="absolute bottom-0 p-4 info-section">
             <h1 class="text-3xl text-white">Hello world, how do you do</h1>
