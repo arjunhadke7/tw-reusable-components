@@ -658,6 +658,10 @@ video {
   clear: none;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -667,20 +671,12 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mt-60 {
-  margin-top: 15rem;
+.mt-80 {
+  margin-top: 20rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-80 {
-  margin-top: 20rem;
 }
 
 .box-border {
@@ -783,12 +779,20 @@ video {
   height: 100vh;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .w-auto {
   width: auto;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .flex-shrink {
@@ -805,6 +809,10 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.basis-1\/6 {
+  flex-basis: 16.666667%;
 }
 
 .table-auto {
@@ -1660,6 +1668,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -2273,8 +2286,22 @@ video {
   content: var(--tw-content);
 }
 
+.hover\:basis-1\/2:hover {
+  flex-basis: 50%;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:transition-all:hover {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:ease-in-out:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .before\:hover\:text-center:hover::before {
